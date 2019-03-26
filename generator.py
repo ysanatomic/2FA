@@ -10,7 +10,7 @@ def ztime():
     return current_time
 def fun():
     while True:
-        os.system("cls")
+        os.system("clear")
         print(My2FA(myhash))
         time.sleep(30)
 
@@ -21,7 +21,7 @@ print("Please wait! We have to sync the time")
 while True:
     current_time = ztime()
     if current_time == need_time:
-        os.system("cls")
+        os.system("clear")
         fun()
     else:
         pass
